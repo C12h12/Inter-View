@@ -16,11 +16,11 @@ import tempfile
 import os
 
 # === API KEYS & CONFIG ===
-GEMINI_API_KEY = "AIzaSyDd1snCP08oE20AnfKbHP4VzBob4ac-i6g"
+GEMINI_API_KEY = ""
 DB_CONFIG = {
     'host': 'localhost',
     'user': 'root',
-    'password': 'Chai13062004@'
+    'password': ''
 }
 DB_NAME = "interviewy_db"
 
@@ -28,7 +28,7 @@ DB_NAME = "interviewy_db"
 GMAIL_SMTP = "smtp.gmail.com"
 GMAIL_PORT = 587
 GMAIL_SENDER = "chaitanyathakre13@gmail.com"
-GMAIL_PASSWORD = "pflc yidj osnh aiiw"
+GMAIL_PASSWORD = ""
 
 # Set static_folder to 'static' (C:\InterviewyApp\static)
 app = Flask(__name__, static_folder='static', template_folder='static')
